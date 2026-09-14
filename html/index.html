@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Ejercicios</title>
+</head>
+<body>
+
+    <!-- Titulo Principal -->
+    <h1 class="titulo-principal">Ejercicios con Prompt y DOM en JavaScript</h1>
+
+    <!-- CONTENEDOR PRINCIPAL: Una sola columna vertical -->
+    <div class="contenedor-principal">
+
+        <!-- Ejercicio 1 -->
+        <div class="tarjeta-ejercicio">
+            <p class="tarjeta-ejercicio__enunciado"><strong>1. Comparador de Letras:</strong>Realizar un programa que compare dos letras y determine si la primera está ubicada antes o después según el abecedario. Tenga en cuenta que las letras mayúsculas están antes que las minúsculas. Debe pedir al usuario el ingreso de las letras.</p>
+            <button class="tarjeta-ejercicio__boton" onclick="ejecutarEjercicio01()">Ejecutar Ejercicio 1</button>
+        </div>
+
+        <!-- Ejercicio 2 -->
+        <div class="tarjeta-ejercicio">
+            <p class="tarjeta-ejercicio__enunciado"><strong>2. Área de un Triángulo:</strong>Crear un programa que calcule el área de un triángulo. El programa debe pedir al usuario el ingreso de la base y de la altura para luego mostrar el cálculo del área. </p>
+            <button class="tarjeta-ejercicio__boton" onclick="ejecutarEjercicio02()">Ejecutar Ejercicio 2</button>
+        </div>
+
+        <!-- Ejercicio 3 -->
+        <div class="tarjeta-ejercicio">
+            <p class="tarjeta-ejercicio__enunciado"><strong>3. Analizador de Ciudades:</strong>Escribir un programa que solicite al usuario el ingreso del nombre de una ciudad y el nombre de un país. El programa debe concatenar ambas cadenas separándolas por una coma y un espacio en blanco (ej. "San Salvador de Jujuy, Argentina") y luego mostrar el resultado. Además, se debe realizar lo siguiente: mostrar la cantidad de caracteres de ambas cadenas por separado, compararlas e indicar cuál de las dos es más larga (o si son iguales).</p>
+            <button class="tarjeta-ejercicio__boton" onclick="ejecutarEjercicio03()">Ejecutar Ejercicio 3</button>
+        </div>
+
+        <!-- Ejercicio 4 -->
+        <div class="tarjeta-ejercicio">
+            <p class="tarjeta-ejercicio__enunciado"><strong>4. Reemplazo de Interrogaciones:</strong>Solicitar al usuario que ingrese una cadena de N caracteres impares. Cada uno de estos N caracteres es o bien un dígito entre 0 y 5 inclusive, o bien un signo de pregunta ?, en forma intercalada y comenzando con un dígito. Debe escribir una función que retorne una nueva cadena, que representa el número obtenido de reemplazar cada signo de pregunta, de la cadena original, por un dígito que sea la suma de los dígitos adyacentes a ese signo de pregunta en la cadena original.</p>
+            <button class="tarjeta-ejercicio__boton" onclick="ejecutarEjercicio04()">Ejecutar Ejercicio 4</button>
+        </div>
+
+        <!-- Ejercicio 5 -->
+        <div class="tarjeta-ejercicio">
+            <div class="tarjeta-ejercicio__enunciado">
+                <p><strong>5. Rendimiento del Estudiante:</strong> Desarrollar un programa que solicite al usuario la cantidad total de preguntas de un examen y las respuestas correctas para calcular el porcentaje de rendimiento.</p>
+                <p>Porcentaje = (Respuestas correctas / Total de preguntas) * 100</p>
+                <p>Una vez calculated el porcentaje, el programa debe clasificar el rendimiento del estudiante y mostrar en qué categoría se encuentra, según las siguientes pautas:</p>
+                <ul>
+                    <li><strong>Mayor o igual a 90%:</strong> Excelente</li>
+                    <li><strong>Entre 70% y 89.99%:</strong> Muy Bueno</li>
+                    <li><strong>Entre 50% y 69.99%:</strong> Aprobado</li>
+                    <li><strong>Menor a 50%:</strong> Desaprobado</li>
+                </ul>
+            </div>
+            <button class="tarjeta-ejercicio__boton" onclick="ejecutarEjercicio05()">Ejecutar Ejercicio 5</button>
+        </div>
+
+    </div> <!-- Cierre del contenedor-principal -->
+
+    <script src="../js/ejercicio01.js"></script>
+    <script src="../js/ejercicio02.js"></script>
+    <script src="../js/ejercicio03.js"></script>
+    <script src="../js/ejercicio04.js"></script>
+    <script src="../js/ejercicio05.js"></script>
+
+</body>
+</html>
