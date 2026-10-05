@@ -43,13 +43,18 @@
             <div class="tarjeta-ejercicio__enunciado">
                 <p><strong>5. Rendimiento del Estudiante:</strong> Desarrollar un programa que solicite al usuario la cantidad total de preguntas de un examen y las respuestas correctas para calcular el porcentaje de rendimiento.</p>
                 <p>Porcentaje = (Respuestas correctas / Total de preguntas) * 100</p>
-                <p>Una vez calculated el porcentaje, el programa debe clasificar el rendimiento del estudiante y mostrar en qué categoría se encuentra, según las siguientes pautas:</p>
+                <p>Una vez calculado el porcentaje, el programa debe clasificar el rendimiento del estudiante y mostrar en qué categoría se encuentra, según las siguientes pautas:</p>
                 <ul>
                     <li><strong>Mayor o igual a 90%:</strong> Excelente</li>
                     <li><strong>Entre 70% y 89.99%:</strong> Muy Bueno</li>
                     <li><strong>Entre 50% y 69.99%:</strong> Aprobado</li>
                     <li><strong>Menor a 50%:</strong> Desaprobado</li>
                 </ul>
+                <p> Ingrese el total de preguntas en el primer campo y las respuestas correctas 
+                 en el segundo campo:</p>
+                <input type="number" id="totalPreguntas">
+                <input type="number" id="respuestasCorrectas">
+                <div id="resultado"></div>
             </div>
             <button class="tarjeta-ejercicio__boton" onclick="ejecutarEjercicio05()">Ejecutar Ejercicio 5</button>
         </div>
